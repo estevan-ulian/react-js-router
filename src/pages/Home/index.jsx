@@ -27,8 +27,8 @@ function Home() {
             flex flex-col justify-center basis-56
             w-full mt-6 py-6 px-4
             bg-white border border-gray-300
-            transition-all duration-100 ease-in
-             md:hover:scale-105`}
+            transition-all duration-300 ease-in
+             md:hover:scale-[1.01]`}
             key={item.id}
             >
               <strong className="text-2xl mt-2 mb-4">{item.titulo}</strong>
