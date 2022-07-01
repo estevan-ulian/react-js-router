@@ -6,7 +6,7 @@ import Error from './pages/Error'
 import Header from "./components/Header";
 import Produto from "./pages/Produtos";
 
-export default function routesApp() {
+export default function RoutesApp() {
     return (
         <BrowserRouter>
             <Header />
