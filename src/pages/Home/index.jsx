@@ -37,7 +37,7 @@ function Home() {
               <small className="text-xs">Categoria: {item.categoria}</small>
               <p className="text-sm mt-2 mb-8">{item.subtitulo}</p>
 
-              <a href="/" className="flex justify-center h-8 border-2 border-blue-500 rounded-md text-lg font-bold text-blue-500 hover:bg-blue-500 hover:text-white">Acessar</a>
+              <a href="/" className="flex justify-center h-8 border-2 border-blue-500 rounded-md text-lg font-bold text-blue-500 transition-all duration-300 ease-in hover:bg-blue-500 hover:text-white">Acessar</a>
 
             </article>
         )
